@@ -1,5 +1,20 @@
 def step_function_2(x)
   y = x>0
-  return y.astype(np.int)
+  return y.astype(np.int)//转换类型，布尔类型转化为0和1
   
+  阶跃函数的图形：
   
+  def sigmoid(x):
+   return 1/(1+np.exp(-x))
+   
+   
+   
+   x = np.arraay([-1,2,1])
+   print(X)
+   sigmoid(x)//说明sigmoid可以运用于数组
+   //结论：【0.2675757,0.74554，0.78766】
+   
+   
+   
+  
+
